@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🎤 Placed – AI Voice Interview Assistant
 
-First, run the development server:
+A modern AI-powered voice interview simulator that helps users practice interviews using real-time speech interaction. Built with React + Vite, powered by VAPI, Web Speech API, and TTS for a smooth, interactive experience.
+
+## ✨ Features
+
+* 🎙️ **Voice-based interviewing** – AI listens to your answers
+* 🤖 **AI-generated questions** using VAPI
+* 🔊 **Text-to-speech** for spoken questions
+* 📝 **Speech-to-text** for capturing responses
+* ⚡ **Fast and responsive UI**
+* 📊 **Dashboard** to review interview performance
+
+## 🛠️ Tech Stack
+
+* React + Vite
+* VAPI (AI Interview Engine)
+* Web Speech API (STT)
+* Text-to-Speech (TTS)
+* Firebase Auth
+* Tailwind CSS
+
+## 🚀 Getting Started
 
 ```bash
+git clone https://github.com/sadiyah004/Placed---AI-Voice-Interview-Assistant.git
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A simple, voice-driven interview practice tool for students, beginners, and job seekers.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🤝 Contributing
 
-## Learn More
+Open to improvements and suggestions.
 
-To learn more about Next.js, take a look at the following resources:
+## 📄 License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For personal and learning use.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
